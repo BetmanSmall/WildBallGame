@@ -4,7 +4,7 @@ using WildBallGame.Scripts.Ui;
 namespace WildBallGame.Scripts.LevelScripts {
     public class TrapPlayerDeathTrigger : MonoBehaviour {
         private void OnTriggerEnter(Collider other) {
-            if (other.CompareTag("Player")) {
+            if (other.CompareTag(GlobalStringsVars.PlayerTag)) {
                 PlayerDeath.Instance.PlayerDeathInvoke();
                 GameOverCanvas.Instance.OpenLosePanel();
             }

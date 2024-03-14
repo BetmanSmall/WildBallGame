@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 namespace WildBallGame.Scripts.LevelScripts {
     public class FinishLevelTrigger : MonoBehaviour {
         private void OnTriggerEnter(Collider other) {
-            if (other.CompareTag("Player")) {
+            if (other.CompareTag(GlobalStringsVars.PlayerTag)) {
                 int sceneCountInBuildSettings = SceneManager.sceneCountInBuildSettings;
                 Scene activeScene = SceneManager.GetActiveScene();
                 int nextBuildIndexScene = activeScene.buildIndex + 1;

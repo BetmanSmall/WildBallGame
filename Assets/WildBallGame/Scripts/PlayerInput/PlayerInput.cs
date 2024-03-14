@@ -1,7 +1,9 @@
 using UnityEngine;
 namespace WildBallGame.Scripts.PlayerInput {
     public class PlayerInput : MonoBehaviour {
-        private const float _shiftSpeedIncrease = 2f;
+        private const string HorizontalAxis = "Horizontal";
+        private const string VerticalAxis = "Vertical";
+        private const float ShiftSpeedIncrease = 2f;
         private Vector3 _movement = new Vector3();
         private PlayerMovement _playerMovement;
         private bool _jump;
@@ -11,11 +13,11 @@ namespace WildBallGame.Scripts.PlayerInput {
         }
 
         private void Update() {
-            float horizontal = Input.GetAxis(GlobalStringsVars.HORIZONTAL_AXIS);
-            float vertical = Input.GetAxis(GlobalStringsVars.VERTICAL_AXIS);
+            float horizontal = Input.GetAxis(HorizontalAxis);
+            float vertical = Input.GetAxis(VerticalAxis);
             _movement.Set(horizontal, 0f, vertical);
             if (Input.GetKey(KeyCode.LeftShift)) {
-                _movement *= _shiftSpeedIncrease;
+                _movement *= ShiftSpeedIncrease;
             }
             if (Input.GetKeyDown(KeyCode.Space)) {
                 _jump = true;
