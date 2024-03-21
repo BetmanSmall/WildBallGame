@@ -261,24 +261,10 @@ MonoBehaviour:
   sceneReferences:
   - asset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - asset: {fileID: 102900000, guid: 9e7e1c06fa3dcdb4396e106888ba3ba9, type: 3}
-    guid: 9e7e1c06fa3dcdb4396e106888ba3ba9
   - asset: {fileID: 102900000, guid: a71cdabb158125b6b88a423893caeced, type: 3}
     guid: a71cdabb158125b6b88a423893caeced
-  - asset: {fileID: 102900000, guid: 0f24e3a0cdfa6dd6d8b91fc76d08ad2e, type: 3}
-    guid: 0f24e3a0cdfa6dd6d8b91fc76d08ad2e
-  - asset: {fileID: 102900000, guid: 4fdd0a7932495054c8b4676dcb4d2a3b, type: 3}
-    guid: 4fdd0a7932495054c8b4676dcb4d2a3b
-  - asset: {fileID: 102900000, guid: dc4e99e11b65be88882d1d649ba6f2b6, type: 3}
-    guid: dc4e99e11b65be88882d1d649ba6f2b6
-  - asset: {fileID: 102900000, guid: 052c6edbc1486ece5bc36d0212daba95, type: 3}
-    guid: 052c6edbc1486ece5bc36d0212daba95
-  - asset: {fileID: 102900000, guid: a60d8979fd69313ff910b55451dcf722, type: 3}
-    guid: a60d8979fd69313ff910b55451dcf722
-  - asset: {fileID: 102900000, guid: 1e20bf5d02b29dd9b91585ddd385bcdc, type: 3}
-    guid: 1e20bf5d02b29dd9b91585ddd385bcdc
-  - asset: {fileID: 102900000, guid: 9d3a403b6c00b97e3ad305dfca119467, type: 3}
-    guid: 9d3a403b6c00b97e3ad305dfca119467
+  - asset: {fileID: 102900000, guid: 234224bfc559b40ca8461c194a7e423f, type: 3}
+    guid: 234224bfc559b40ca8461c194a7e423f
 --- !u!114 &898900890759968758
 MonoBehaviour:
   m_ObjectHideFlags: 0
