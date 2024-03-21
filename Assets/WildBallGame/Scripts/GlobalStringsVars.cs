@@ -1,5 +1,5 @@
 namespace WildBallGame.Scripts {
-    public class GlobalStringsVars {
+    public static class GlobalStringsVars {
         public const string PlayerTag = "Player";
     }
 }

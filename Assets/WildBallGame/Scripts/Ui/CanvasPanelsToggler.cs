@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 namespace WildBallGame.Scripts.Ui {
     public class CanvasPanelsToggler : MonoBehaviour {
         [SerializeField] private Button pauseButton;

@@ -1,4 +1,5 @@
 using UnityEngine;
+
 namespace WildBallGame.Scripts.PlayerInput {
     public class PlayerInput : MonoBehaviour {
         private const string HorizontalAxis = "Horizontal";

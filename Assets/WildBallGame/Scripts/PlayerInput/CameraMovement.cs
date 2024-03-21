@@ -1,4 +1,5 @@
 using UnityEngine;
+
 namespace WildBallGame.Scripts.PlayerInput {
     public class CameraMovement : MonoBehaviour {
         [SerializeField] private Transform playerTransform;

@@ -1,4 +1,5 @@
 using UnityEngine;
+
 namespace WildBallGame.Scripts.LevelScripts {
     public class EnableTriggerObject : MonoBehaviour {
         [SerializeField] private GameObject gameObjectToActive;

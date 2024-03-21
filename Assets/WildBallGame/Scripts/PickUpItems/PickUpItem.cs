@@ -1,5 +1,6 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
+
 namespace WildBallGame.Scripts.PickUpItems {
     [RequireComponent(typeof(AudioSource))]
     [RequireComponent(typeof(ParticleSystem))]

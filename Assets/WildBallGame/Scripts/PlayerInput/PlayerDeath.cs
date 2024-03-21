@@ -1,4 +1,5 @@
 using UnityEngine;
+
 namespace WildBallGame.Scripts.PlayerInput {
     public class PlayerDeath : MonoBehaviour {
         [SerializeField] private Rigidbody rigidbody;

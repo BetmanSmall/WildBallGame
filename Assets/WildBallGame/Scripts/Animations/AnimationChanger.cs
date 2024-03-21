@@ -1,5 +1,6 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
+
 namespace WildBallGame.Scripts.Animations {
     public class AnimationChanger : MonoBehaviour {
         [SerializeField] private Animator animator;

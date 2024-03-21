@@ -1,4 +1,5 @@
 using UnityEngine;
+
 namespace WildBallGame.Scripts.Animations {
     public class DoorAnimatorController : MonoBehaviour {
         [SerializeField] private Animator animator;

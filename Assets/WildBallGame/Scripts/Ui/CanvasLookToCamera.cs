@@ -1,4 +1,5 @@
 using UnityEngine;
+
 namespace WildBallGame.Scripts.Ui {
     public class CanvasLookToCamera : MonoBehaviour {
         private Camera _mainCamera;

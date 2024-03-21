@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 namespace WildBallGame.Scripts.Ui {
     public class GameOverCanvas : MonoBehaviour {
         [SerializeField] private GameObject mainGameOverPanel;
